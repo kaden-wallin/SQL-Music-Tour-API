@@ -35,5 +35,7 @@ Band.init({
     timestamps: false
 })
 
+Band.sync()
+
 //EXPORT
 module.exports = Band

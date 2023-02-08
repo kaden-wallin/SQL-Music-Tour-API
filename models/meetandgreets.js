@@ -29,13 +29,11 @@ module.exports = (sequelize, DataTypes) => {
     },
     meet_start_time: {
       type: DataTypes.DATE,
-      allowNull: false,
-      forgienKey
+      allowNull: false
     },
     meet_end_time: {
       type: DataTypes.DATE,
-      allowNull: false,
-      forgienKey
+      allowNull: false
     }
   }, {
     sequelize,
